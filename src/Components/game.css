@@ -1,0 +1,20 @@
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(20, 20px); 
+    grid-template-rows: repeat(20, 20px);  
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+}
+.cell {
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+.snake {
+    background-color: green;
+  }
+  
+  .food {
+    background-color: red;
+  }
